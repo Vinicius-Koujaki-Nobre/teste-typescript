@@ -1,28 +1,9 @@
 import Image from "next/image";
-import img from "../assets/Guaxinim.jpg"
-// import { useState } from "react";
-
-// const [span, setSpan] = useState(false)
-
-// const showSpan = () => {
-//   setSpan(!span)
-// }
 
 export default function Home() {
   return (
-    <>
-      <section className="bg-[url(../assets/bg-section.jpg)] bg-cover bg-no-repeat h-screen w-auto">
-        <div className="">
-          <Image src={img} alt="guaxino" className=" h-1/3 w-auto rounded-full"/>
-          <h2 className="text-center text-white">alguma coisa</h2>
-        </div>
-      </section>
-      <section className="bg-[url(../assets/bg-section.jpg)] bg-cover bg-no-repeat h-screen w-auto">
-        {/* <button onClick={showSpan} className="text-white">clique</button>
-        {span && (
-          <span>clique fora</span>
-        )} */}
-      </section>
-    </>
+    <div className="bg-[black] h-[100vh] flex items-center justify-center">
+      <h1 className="text-[white] text-5x1">estudos e ódios</h1>
+    </div>
   );
 }
